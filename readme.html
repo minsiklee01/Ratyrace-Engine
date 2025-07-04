@@ -1,0 +1,128 @@
+<meta charset="utf-8" lang="en">  <!-- this line allows UTF-8 characters in the .html file -->
+
+
+                    **Project 3: Final**
+
+
+
+
+<!--
+
+General
+========
+
+Use this readme to describe what you learned while working on this project.
+Also include any problems you ran into, solutions you found, fun things discovered, etc.
+This document is your chance to communicate to me what you learned and to show off what you did.
+Feel free to include code snippets if it helps.
+
+You should include all the images that you code generated in here along with a short description.
+I have added a few reference images (under `references/` folder), but you should delete those and add your own images (under `output/` folder).
+
+Be sure to include a description of the elective(s) and creative artifact.
+
+Hint: it might be good to write a short note on how you know your implementation is doing the correct thing.
+For some of the images, this is obvious as you can compare your output with my reference images.
+But for other images, it might not be so obvious.
+
+
+Feel free to modify the structure of this `readme.html` file to fit the current assignment and to fit how you wish to present your findings.
+
+Take a look at the [Markdeep Feature Demo](https://casual-effects.com/markdeep/features.md.html) to see how you can markup this document.
+
+
+
+Submission
+-----------
+
+Submit a zip with everything needed to run your project, which includes _ALL_ source code and any extra images.
+I will run your submissions on my computer to make sure that all images are produced by your code.
+I will read through your readme (this document) to understand how you implemented your source.
+
+
+-->
+
+
+
+Author
+=============
+
+
+<!-- Note: wrapping table in div.noheader will hide the table's header -->
+<!-- Note: wrapping table in div.firstcol will style the first column different from other columns -->
+<div class="noheader firstcol">
+                  |             
+------------------|-------------
+name              | Minsik Lee
+computer + OS     | Mac
+time to complete  | 15+ hours
+partner           | none
+additional help   | 
+</div>
+
+
+
+Implementations
+===============
+
+## Feature 0: Simple brute-force path tracer
+
+![](output/firstWeek.png)
+
+
+Feature 1: Motion Blur
+----------------
+![](output/motionBlur.png)
+
+Implementing motion blur was fascinating, as I hadn’t anticipated incorporating the element of time into creating a scene.
+
+Feature 2: Blurry Reflections / Refractions
+----------------
+![](output/blurryReflection.png)
+
+
+
+Feature 3: Texture Mapping
+----------------
+![](output/texture.png)
+
+
+Feature 4: Light Emitting Sphere
+----------------
+![](output/light.jpg)
+
+
+Creative Artifact
+===============
+![](output/final.jpg)
+![](output/snowmanWithLight.jpg)
+I made a snow globe with a snowman surrounded by some snow and small balls, all inside a big glass sphere.
+Some balls have metal texture while others are simply diffused. 
+I added a snow texture to the snowman and snow, and used motion blur to make it look like the snow was falling.
+
+Setting up the scene took a while because even with just a few samples per pixel, rendering still took a few seconds. 
+I also had to render a bunch of times to figure out the right x, y, z coordinates for everything.
+
+Overall, it was a fun project. It made me appreciate a real-time rendering technology and all the cool computer graphics I see everywhere.
+
+
+
+
+
+
+<!--   Feel free to modify the following to fit a theme of your choosing   -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> <!-- a sans-serif font -->
+<style>  /* A TAYLOR-INSPIRED THEME */
+body {font-family:'Open Sans',sans-serif;}
+.md a:link, .md a:visited {color:hsl(252,23.0%,44.3%); font-family:'Open Sans',sans-serif;}
+.md table.table th {background-color:hsl(252,23.0%,44.3%);}
+.md .noheader th {display:none;}
+.md .firstcol td:first-child {white-space:pre;color:white;vertical-align:top;font-weight:bold;border-color:black;background:hsl(252,23.0%,54.3%);}
+.md .firstcol tr:nth-child(even) td:first-child {background:hsl(252,23.0%,44.3%);}
+</style>
+
+
+<!--   Leave the following Markdeep formatting code, as this will format your text above to look nice in a wed browser   -->
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible");</script>

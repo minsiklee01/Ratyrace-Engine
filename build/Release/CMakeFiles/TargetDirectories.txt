@@ -1,0 +1,3 @@
+/Users/minlee/Desktop/SCHOOL/Raytrace/build/Release/CMakeFiles/inOneWeekend.dir
+/Users/minlee/Desktop/SCHOOL/Raytrace/build/Release/CMakeFiles/edit_cache.dir
+/Users/minlee/Desktop/SCHOOL/Raytrace/build/Release/CMakeFiles/rebuild_cache.dir
